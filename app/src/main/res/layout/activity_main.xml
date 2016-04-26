@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="sendingprogressview.com.sendingprogressview.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="48dp"
+        android:background="@color/teal"
+        android:id="@+id/frame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Progress"
+        android:id="@+id/start"
+        android:gravity="center"
+        android:background="@color/skin"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+</RelativeLayout>
